@@ -1,0 +1,16 @@
+{
+  "name": "next-ts-tailwind",
+  "version": "1.0.0",
+  "description": "NextJS Typescript TailwindCSS boilerplate",
+  "main": "index.ts",
+  "scripts": {
+    "start": "ts-node index.ts"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^14.14.9",
+    "@types/prompts": "^2.0.9",
+    "prompts": "^2.4.0"
+  }
+}
