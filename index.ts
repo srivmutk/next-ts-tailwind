@@ -2,15 +2,15 @@
 import prompts from "prompts"
 import exec from "await-exec"
 import { spawn } from "child_process";
-import colors from "colors"
 
-let resVal;
+let resVal: string;
 
 function resolve(){
-	console.log("Installing Dependencies...".blue)
+	console.log("Installing Dependencies...")
 	process.chdir(`${resVal}`);
 	const installer = spawn("npm", ['install'], {stdio: 'inherit'})
-	console.log(`Happy Hacking`.green)
+	console.log(`Happy Hacking`)
+	return installer;
 }
 
 (async () => {	
@@ -19,8 +19,11 @@ function resolve(){
     	name: 'value',
     	message: 'Name of Folder?'
 	  });
-	await exec(`git clone https://github.com/Sysnomid/next-ts-tailwind.git ${response.value}`);  
+	
+	  await exec(`git clone https://github.com/Sysnomid/next-ts-tailwind.git ${response.value}`);  
+	console.log("Downloading Files...")
 	resVal = response.value;
+	
 	resolve();
 })();
 
