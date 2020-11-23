@@ -19,11 +19,11 @@ const IndexPage = () => (
             Edit <code className="text-md pr-2 pl-2 pb-7">pages/index.tsx</code> to get started
     </div>
     <div className="flex justify-center gap-10 mb-10 text-2xl">
-      <div className="bg-blue-200 rounded-xl p-5">
+      <div className="bg-blue-200 hover:bg-blue-300 rounded-xl p-5">
         <img className="pr-20"></img>
         <a href="https://nextjs.org" className="rounded-sm">Check out <strong>NextJS</strong></a>
       </div>
-      <div className="bg-blue-200 rounded-xl p-5">
+      <div className="bg-blue-200 hover:bg-blue-300 rounded-xl p-5">
          <a href="https://tailwindcss.com" className="rounded-sm">Check out <strong>TailwindCSS</strong></a>
       </div>
     </div>

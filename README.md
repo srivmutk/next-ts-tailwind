@@ -4,10 +4,7 @@ NextJS Boilerplate with Typescript and Tailwind
 
 **To use this Boilerplate**:
     <br />
-    ``` npx nextjs-ts-tailwind```
-    <br />
-    ``` cd name_of_folder && npm install ```
-    Then edit ``` pages/index.tsx ```
+    ``` npx next-ts-tailwind```
 
 Check out the NPM package code for this on branch main, 
   https://github.com/Sysnomid/next-ts-tailwind/tree/main
