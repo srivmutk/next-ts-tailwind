@@ -9,6 +9,10 @@ NextJS Boilerplate with Typescript and Tailwind
     ``` cd name_of_folder && npm install ```
     Then edit ``` pages/index.tsx ```
 
+Check out the Boilerplate NextJS code here,
+https://github.com/Sysnomid/next-ts-tailwind/tree/boilerplate
+
+
 https://nextjs.org
 https://tailwindcss.com
 https://vercel.com
