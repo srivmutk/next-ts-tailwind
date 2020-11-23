@@ -1,10 +1,12 @@
 {
-  "name": "next-ts-tailwind",
-  "version": "1.0.0",
+  "name": "nextjs-ts-tailwind",
+  "version": "1.0.7-6",
   "description": "NextJS Typescript TailwindCSS boilerplate",
-  "main": "index.ts",
+  "main": "index.js",
+  "bin": "index.js",
+  "type": "module",
   "scripts": {
-    "start": "ts-node index.ts"
+    "start": "node index.js"
   },
   "author": "",
   "license": "MIT",
