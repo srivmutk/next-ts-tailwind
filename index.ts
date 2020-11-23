@@ -20,8 +20,8 @@ function resolve(){
     	message: 'Name of Folder?'
 	  });
 	
-	  await exec(`git clone https://github.com/Sysnomid/next-ts-tailwind.git ${response.value}`);  
-	console.log("Downloading Files...")
+	 await exec(`git clone -b boilerplate https://github.com/Sysnomid/next-ts-tailwind.git ${response.value}`);  
+ 
 	resVal = response.value;
 	
 	resolve();

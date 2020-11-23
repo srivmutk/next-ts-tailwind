@@ -15,8 +15,10 @@
   "author": "Sysnomid",
   "license": "MIT",
   "dependencies": {
+    "@types/fs-extra": "^9.0.4",
     "await-exec": "^0.1.2",
     "await-spawn": "^4.0.1",
+    "fs-extra": "^9.0.1",
     "prompts": "^2.4.0"
   },
   "devDependencies": {
