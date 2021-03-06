@@ -1,12 +1,16 @@
 import type { AppProps /*, AppContext */ } from 'next/app'
+import { Provider } from 'next-auth/client';
 import '../styles/index.css'
 
 const App = ({ Component, pageProps }: AppProps) => {
+    const { session } = pageProps;
     return (
         <>
-            <div className="flex flex-col h-screen justify-between items-center">
+            <Provider session={session}>
+            <div className="flex flex-col h-screen bg-gray-900 text-white">
                 <Component {...pageProps} />
             </div>
+            </Provider>
         </>
     );
 }
