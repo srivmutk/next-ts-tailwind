@@ -1,4 +1,5 @@
-const IndexPage = () => (
+const IndexPage = () => {
+ return (
   <> 
   {/*Delete content here and add your own*/}
   <div className="break-words">
@@ -33,6 +34,7 @@ const IndexPage = () => (
   </div>
   
   </>
-)
+   );
+}
 
 export default IndexPage
